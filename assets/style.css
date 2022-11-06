@@ -29,7 +29,10 @@ input {
   cursor: initial;
 }
 
-.body {
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #d6e5fa;
 }
 
 main {
