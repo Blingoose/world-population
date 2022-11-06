@@ -117,7 +117,7 @@ function startApp() {
             backgroundColor: ["rgb(58, 130, 238, 0.5)"],
             borderColor: ["rgba(934, 64, 164, 1)"],
             borderWidth: 1,
-            barPercentage: 0.5,
+            barPercentage: 0.7,
           },
         ],
       },
