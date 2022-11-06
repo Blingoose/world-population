@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/normalize.css" />
+    <link rel="stylesheet" href="/assets/style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"
+      defer
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="script/app.js" type="module"></script>
+    <title>World Population</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="region">
+        <div class="continents-container">
+          <input type="button" value="America" class="reg-btn americas" />
+          <input type="button" value="Africa" class="reg-btn africa" />
+          <input type="button" value="Asia" class="reg-btn asia" />
+          <input type="button" value="Europe" class="reg-btn europe" />
+          <input type="button" value="Oceania" class="reg-btn oceania" />
+        </div>
+      </section>
+      <section class="chart-section">
+        <div class="chart-container">
+          <canvas id="myChart" width="600" height="300"></canvas>
+        </div>
+      </section>
+      <section class="buttons-container"></section>
+    </main>
+  </body>
+</html>
